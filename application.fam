@@ -1,0 +1,12 @@
+App(
+    appid="wifi_mapper",
+    name="WiFi Mapper",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="wifi_mapper_app",
+    stack_size=6 * 1024,
+    requires=["gui", "storage"],
+    fap_category="GPIO",
+    fap_version="2.0",
+    fap_author="WiFi Mapper",
+    fap_description="Cartographie la couverture Wi-Fi piece par piece",
+)
